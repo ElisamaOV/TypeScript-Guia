@@ -1,17 +1,20 @@
-(() => {
-  let avengers: number = 10;
+(()=> {
 
-  console.log(avengers);
+    let avengers: number = 10;
 
-  const villians: number = 20;
+    console.log( avengers )
 
-  if (avengers < villians) {
-    console.log('Estamos en problemas');
-  } else {
-    console.log('Nos salvamos');
-  }
+    const villians: number = 20;
 
-  avengers = Number('55');
 
-  console.log({ avengers });
-})();
+    if( avengers < villians ) {
+        console.log('Estamos en problemas');
+    } else {
+        console.log('Nos salvamos')
+    }
+
+    avengers = Number('55A');
+
+    console.log({ avengers });
+
+})()

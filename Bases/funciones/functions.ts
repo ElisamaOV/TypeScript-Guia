@@ -1,14 +1,18 @@
-(() => {
-  const hero: string = 'Flash';
+(()=> {
 
-  function returnName(): string {
-    return hero;
-  }
+    const hero: string = 'Flash';
 
-  const activateBatisignal = (): string => {
-    return 'Batiseñal activada!';
-  };
+    function returnName():string {
+        return hero;
+    }
 
-  console.log(typeof activateBatisignal);
-  const heroName = returnName();
-})();
+    const activateBatisignal = ():string => {
+        return 'Batiseñar activada!';
+    }
+    
+    console.log(typeof activateBatisignal);
+
+    const heroName = returnName();
+
+
+})()
